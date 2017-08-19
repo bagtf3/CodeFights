@@ -1,12 +1,12 @@
-creationTimes= [461620201, 461620203, 461620207]
-backupRequests= [[1,0,461620202], 
- [1,2,461620208], 
- [0,2,461620210], 
- [1,0,461620204], 
- [1,1,461620209], 
- [1,1,461620203]]
-k= 3
-t= 461620210
+#creationTimes= [461620201, 461620203, 461620207]
+#backupRequests= [[1,0,461620202], 
+ #[1,2,461620208], 
+ #[0,2,461620210], 
+ #[1,0,461620204], 
+ #[1,1,461620209], 
+ #[1,1,461620203]]
+#k= 3
+#t= 461620210
 
 def backupHistory(creationTimes, backupRequests, k, t):
     out = [0 for i in creationTimes]
@@ -32,7 +32,7 @@ def backupHistory(creationTimes, backupRequests, k, t):
                     backups.append(r[2])
         
         out[f] = len(backups)
-    print out
+    return out
                 
         
         
