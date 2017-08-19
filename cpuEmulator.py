@@ -1,10 +1,3 @@
-#subroutine= ["DEC R42", 
-# "INC R01", 
-# "ADD R02,R01", 
-# "ADD R00,R02", 
-# "ADD R00,R42", 
-# "JZ 1"]
-
 def cpuEmulator(subroutine):
     
     regs = ["R" + str(r).zfill(2) for r in xrange(0, 43)]

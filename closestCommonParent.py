@@ -1,25 +1,3 @@
-#files= ["F1", 
- #"F2", 
- #"F3", 
- #"F4", 
- #"F5", 
- #"F6", 
- #"F7", 
- #"F8", 
- #"F9"]
-#parents= ["-1", 
- #"F1", 
- #"F1", 
- #"F3", 
- #"F3", 
- #"F3", 
- #"F6", 
- #"F6", 
- #"F2"]
-#file1= "F7"
-#file2= "F3"
-
-#closestCommonParent(files, parents, file1, file2) = "F2".
 def closestCommonParent(files, parents, file1, file2):
     
     def isParent(par, chi, mapping):

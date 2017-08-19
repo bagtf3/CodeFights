@@ -1,9 +1,3 @@
-threads = 50
-import random
-
-documents = [random.randint(0, 1000) for a in xrange(50)]
-#documents =  [2, 1, 1, 3, 5, 2, 4, 2, 3, 1]
-
 def concurrentBackups(threads, documents):
     import copy
     

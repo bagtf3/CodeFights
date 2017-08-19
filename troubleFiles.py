@@ -1,12 +1,3 @@
-
-#files= [[461618501,3], 
-# [461618502,1], 
-# [461618504,2], 
-# [461618506,5], 
-# [461618507,6]]
-#backups= [461618501, 461618502, 461618504, 461618505, 461618506]
-
-
 ##### Not sure if this is working 
 ##### or not. Did not get to test it. 
 
@@ -70,14 +61,3 @@ def troubleFiles(files, backups):
             
             trouble.append(max([0,tr]))
             return trouble
-            
-                 
-            
-                
-        
-        
-        
-        
-        
-        
-        
